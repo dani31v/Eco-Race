@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		069010782B72F73100B6D701 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069010772B72F73100B6D701 /* ProgressBar.swift */; };
 		0A0D2DF32B71F17900218DCC /* aireView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0D2DF22B71F17900218DCC /* aireView.swift */; };
 		0A806CBE2B7163F0004D9CB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A806CBD2B7163F0004D9CB4 /* AppDelegate.swift */; };
 		0A806CC02B7163F0004D9CB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A806CBF2B7163F0004D9CB4 /* ContentView.swift */; };
@@ -17,7 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		069010772B72F73100B6D701 /* ProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgressBar.swift; path = "../../../../../Desktop/Eco-race/ViewFuego/ViewFuego/Components/ProgressBar.swift"; sourceTree = "<group>"; };
 		0A0D2DF22B71F17900218DCC /* aireView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aireView.swift; sourceTree = "<group>"; };
 		0A806CBA2B7163F0004D9CB4 /* Eco-Race.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eco-Race.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A806CBD2B7163F0004D9CB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,7 +58,6 @@
 				0A806CBD2B7163F0004D9CB4 /* AppDelegate.swift */,
 				0A806CBF2B7163F0004D9CB4 /* ContentView.swift */,
 				0A0D2DF22B71F17900218DCC /* aireView.swift */,
-				069010772B72F73100B6D701 /* ProgressBar.swift */,
 				0AA13C552B72B4E4004D913B /* ViewRouter.swift */,
 				0A806CC12B7163F2004D9CB4 /* Assets.xcassets */,
 				0A806CC32B7163F2004D9CB4 /* Preview Content */,
@@ -149,7 +146,6 @@
 				0A0D2DF32B71F17900218DCC /* aireView.swift in Sources */,
 				0A806CC02B7163F0004D9CB4 /* ContentView.swift in Sources */,
 				0A806CBE2B7163F0004D9CB4 /* AppDelegate.swift in Sources */,
-				069010782B72F73100B6D701 /* ProgressBar.swift in Sources */,
 				0AA13C562B72B4E4004D913B /* ViewRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
