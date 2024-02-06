@@ -11,7 +11,7 @@ import RealityKit
 
 struct ContentView : View {
     var body: some View {
-        Text("Hola")
+        Text("Holaa")
         aireView()
         
     }
