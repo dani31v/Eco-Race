@@ -36,16 +36,15 @@ struct aireView: View {
                     ZStack{
                         
                         RoundedRectangle(cornerRadius: 40.0)
+                            
+                            .fill(.ultraThinMaterial)
+                    
+                
                             .frame(width:800, height:80)
-                            .foregroundColor(.airletra)
-                        
-                        
+                            
                         
                         ZStack{
-                            RoundedRectangle(cornerRadius: 40.0)
-                                .frame(width:750, height:60)
-                                .foregroundColor(.white)
-                                .opacity(0.9)
+                            
                             
                             
                             Spacer()
@@ -57,23 +56,23 @@ struct aireView: View {
                 
                     //rectangulo mas grande
                         ZStack{
-                            RoundedRectangle(cornerRadius: 50.0)
-                                .frame(width: 900, height: 300)
-                                .foregroundColor(.airletra)
-                                .opacity(0.8)
+                          
                             
                             //espacio entre los 4 botones
                             HStack (spacing:-170)
                             {
                                 //es el espacio para los botones de espacio pero vertical
                                 VStack(spacing:30){
-                                    RoundedRectangle(cornerRadius: 25.0)
-                                        .frame(width:300, height:80)
-                                        .foregroundColor(.white)
                                     
                                     RoundedRectangle(cornerRadius: 25.0)
+                                        .fill(.ultraThinMaterial)
                                         .frame(width:300, height:80)
-                                        .foregroundColor(.white)
+                                      
+                                    
+                                    RoundedRectangle(cornerRadius: 25.0)
+                                        .fill(.ultraThinMaterial)
+                                        .frame(width:300, height:80)
+                                        
                                  
                                 }
                                 Spacer()
@@ -82,12 +81,14 @@ struct aireView: View {
                                 //es el espacio para los botones de espacio pero vertical
                                 VStack(spacing:30){
                                     RoundedRectangle(cornerRadius: 25.0)
+                                        .fill(.ultraThinMaterial)
                                         .frame(width:300, height:80)
-                                        .foregroundColor(.white)
+                                        
                                     
                                     RoundedRectangle(cornerRadius: 25.0)
+                                        .fill(.ultraThinMaterial)
                                         .frame(width:300, height:80)
-                                        .foregroundColor(.white)
+                                        
                                  
                                 }
                                 
