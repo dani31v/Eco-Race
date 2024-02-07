@@ -12,14 +12,14 @@ struct ProgressBar: View {
     var body: some View {
         ZStack(alignment: .leading){
             Rectangle()
-                .frame(maxWidth: 350,maxHeight: 4)
+                .frame(maxWidth: 350,maxHeight: 14)
                 .foregroundColor(Color(.white))
-                .cornerRadius(10)
+                .cornerRadius(20)
             
             Rectangle()
-                .frame(width: progress,height: 4)
+                .frame(width: progress,height: 14)
                 .foregroundColor(Color(.red))
-                .cornerRadius(10)
+                .cornerRadius(20)
             
         }
     }

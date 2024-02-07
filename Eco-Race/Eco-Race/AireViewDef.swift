@@ -21,9 +21,54 @@ struct AireViewDef: View {
                     .bold()
                     .font(Font.custom("Arial Rounded MT Bold", size:80))
                     .foregroundColor(.airletra)
+             
+                
+             ZStack{
+                 VStack{
+                     HStack
+                     {
+                         RoundedRectangle(cornerRadius: 40)
+                             .fill(.ultraThinMaterial)
+                             .frame(width:800, height:80)
+                         
+                         
+                         
+                     }
+                
+                     HStack{
+                         VStack{
+                             Spacer()
+                             HStack{
+                                 AnswerRow(answer: Answer(text: "Verano",isCorrect: true))
+                                 
+                                 AnswerRow(answer: Answer(text: "Invierno",isCorrect: false))
+                             }
+                          
+                             HStack{
+                                 
+                                 
+                                 AnswerRow(answer: Answer(text: "Verano",isCorrect: true))
+                                 
+                                 AnswerRow(answer: Answer(text: "Invierno",isCorrect: false))
+                             }
+                         }
+                     }
+                     
+                 }
+                 
+                 
+                
+                    
+                }
+             
+                
                 Spacer()
-                        .frame(height:400)
+                
+                
+               
             }
+            
+            .padding(200)
             
             
         }
