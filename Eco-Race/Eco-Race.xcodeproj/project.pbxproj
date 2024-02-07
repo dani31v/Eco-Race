@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0690107A2B72F84200B6D701 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069010792B72F84200B6D701 /* ProgressBar.swift */; };
 		0A0D2DF32B71F17900218DCC /* aireView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0D2DF22B71F17900218DCC /* aireView.swift */; };
+		0A5A367D2B72FF58008BEDDE /* AireViewDef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A367C2B72FF58008BEDDE /* AireViewDef.swift */; };
 		0A806CBE2B7163F0004D9CB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A806CBD2B7163F0004D9CB4 /* AppDelegate.swift */; };
 		0A806CC02B7163F0004D9CB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A806CBF2B7163F0004D9CB4 /* ContentView.swift */; };
 		0A806CC22B7163F2004D9CB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A806CC12B7163F2004D9CB4 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		069010792B72F84200B6D701 /* ProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		0A0D2DF22B71F17900218DCC /* aireView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aireView.swift; sourceTree = "<group>"; };
+		0A5A367C2B72FF58008BEDDE /* AireViewDef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AireViewDef.swift; sourceTree = "<group>"; };
 		0A806CBA2B7163F0004D9CB4 /* Eco-Race.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eco-Race.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A806CBD2B7163F0004D9CB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A806CBF2B7163F0004D9CB4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				0A806CBD2B7163F0004D9CB4 /* AppDelegate.swift */,
 				0A806CBF2B7163F0004D9CB4 /* ContentView.swift */,
 				0A0D2DF22B71F17900218DCC /* aireView.swift */,
+				0A5A367C2B72FF58008BEDDE /* AireViewDef.swift */,
 				0AA13C552B72B4E4004D913B /* ViewRouter.swift */,
 				069010792B72F84200B6D701 /* ProgressBar.swift */,
 				0A806CC12B7163F2004D9CB4 /* Assets.xcassets */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A0D2DF32B71F17900218DCC /* aireView.swift in Sources */,
+				0A5A367D2B72FF58008BEDDE /* AireViewDef.swift in Sources */,
 				0A806CC02B7163F0004D9CB4 /* ContentView.swift in Sources */,
 				0A806CBE2B7163F0004D9CB4 /* AppDelegate.swift in Sources */,
 				0690107A2B72F84200B6D701 /* ProgressBar.swift in Sources */,

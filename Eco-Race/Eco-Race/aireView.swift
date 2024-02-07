@@ -26,37 +26,41 @@ struct aireView: View {
                 
             }
             
-            HStack
-            {
+            
+            ZStack{
                 
-                VStack
+                
+                HStack
                 {
-                    Spacer()
-                        .frame(height:100)
-                    ZStack{
-                        
-                        RoundedRectangle(cornerRadius: 40.0)
-                            
-                            .fill(.ultraThinMaterial)
                     
-                
-                            .frame(width:800, height:80)
-                            
-                        
+                    VStack
+                    {
+                        Spacer()
+                            .frame(height:100)
                         ZStack{
                             
+                            RoundedRectangle(cornerRadius: 40.0)
+                            
+                                .fill(.ultraThinMaterial)
                             
                             
-                            Spacer()
-                                .frame(height:150)
+                                .frame(width:800, height:80)
+                            
+                            
+                            ZStack{
+                                
+                                
+                                
+                                Spacer()
+                                    .frame(height:150)
+                            }
+                            
+                            
                         }
-                       
-                      
-                    }
-                
-                    //rectangulo mas grande
+                        
+                        //rectangulo mas grande
                         ZStack{
-                          
+                            
                             
                             //espacio entre los 4 botones
                             HStack (spacing:-170)
@@ -67,13 +71,13 @@ struct aireView: View {
                                     RoundedRectangle(cornerRadius: 25.0)
                                         .fill(.ultraThinMaterial)
                                         .frame(width:300, height:80)
-                                      
+                                    
                                     
                                     RoundedRectangle(cornerRadius: 25.0)
                                         .fill(.ultraThinMaterial)
                                         .frame(width:300, height:80)
-                                        
-                                 
+                                    
+                                    
                                 }
                                 Spacer()
                                     .frame(width:450)
@@ -83,29 +87,34 @@ struct aireView: View {
                                     RoundedRectangle(cornerRadius: 25.0)
                                         .fill(.ultraThinMaterial)
                                         .frame(width:300, height:80)
-                                        
+                                    
                                     
                                     RoundedRectangle(cornerRadius: 25.0)
                                         .fill(.ultraThinMaterial)
                                         .frame(width:300, height:80)
-                                        
-                                 
+                                    
+                                    
                                 }
                                 
-                    
+                                
                             }
-                          
+                            
                             
                         }
+                    Spacer()
+                            .frame(width:40, height:40 )
+                        ProgressBar(progress: 40)
+                    }
+                    
+                    
                     
                 }
                 
-
                 
             }
-        
             
         }
+        
         
         
     }

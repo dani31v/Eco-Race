@@ -13,7 +13,7 @@ struct ProgressBar: View {
         ZStack(alignment: .leading){
             Rectangle()
                 .frame(maxWidth: 350,maxHeight: 4)
-                .foregroundColor(Color(.gray))
+                .foregroundColor(Color(.white))
                 .cornerRadius(10)
             
             Rectangle()
