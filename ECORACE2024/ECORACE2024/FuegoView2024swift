@@ -1,0 +1,43 @@
+//
+//  FuegoView2024.swift
+//  ECORACE2024
+//
+//  Created by Daniela Valencia on 07/02/24.
+//
+
+import SwiftUI
+
+struct FuegoView1: View {
+    var body: some View {
+        ZStack{
+            Image("firef")
+                .resizable()
+                .frame(width:1500, height:860)
+            VStack
+            {
+              
+                    
+                    Text("FIRE")
+                        .bold()
+                        .font(Font.custom("Arial Rounded MT Bold", size:80))
+                        .foregroundColor(.airletra)
+               
+                
+                Spacer()
+                
+                ZStack{
+                    QuestionView2024()
+                }
+                
+                
+            }
+           
+            .padding(450)
+        }
+    }
+}
+
+#Preview {
+    AirView1()
+}
+
